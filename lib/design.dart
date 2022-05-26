@@ -9,14 +9,9 @@ class NewPages extends StatefulWidget {
 
 class _NewPagesState extends State<NewPages> {
   int _pageIndex = 0;
-
-  // var color_blue = Colors.blue[900];
-  // var color_red = Colors.red;
-  // Color color_background = Colors.white;
-
-  @override
   var color_background = Colors.white;
 
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: color_background,
